@@ -1,0 +1,310 @@
+@font-face {
+    font-family: futuraMedium;
+    src: url("../font/futura medium bt.ttf");
+}
+
+@font-face {
+    font-family: futuraLight;
+    src: url("../font/futura light bt.ttf");
+}
+
+@font-face {
+    font-family: futuraHeavy;
+    src: url("../font/Futura Heavy font.ttf");
+}
+
+@font-face {
+    font-family: futuraExtraHeavy;
+    src: url("../font/Futura Extra Black font.ttf");
+}
+
+body {
+    margin-bottom: 40px;
+    padding-bottom: 60px;
+}
+
+.futuraHeavy {
+    font-family: futuraHeavy;
+}
+
+.futuraMedium {
+    font-family: futuraMedium;
+}
+
+.futuraExtraHeavy {
+    font-family: futuraExtraHeavy;
+}
+
+.futuraLight {
+    font-family: futuraLight;
+}
+
+.logofont {
+    font-family: futuraHeavy;
+}
+
+.logoLeft {
+    font-size: 24px !important;
+    padding: 0.5rem 1rem;
+}
+
+.logoWords {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.logoRight {
+    font-size: 18px !important;
+}
+
+.devideFontSize {
+    padding-top: 8px;
+    font-size: 30px;
+    color: #898989;
+}
+
+.paddingSmallHeader {
+    padding: 20px 0px 20px 0px;
+}
+
+.paddingSmallHeaderOther {
+    padding: 20px 0px 0px 50px;
+}
+
+.paddingOneSentence {
+    padding: 20px 50px 0px 50px !important;
+}
+
+.paddingSentence {
+    padding: 0px 50px 0px 50px !important;
+}
+
+.marginBlock {
+    margin: 30px 0px 30px 0px;
+}
+
+.rowMargin {
+    margin-top: 30px;
+}
+
+.orderNum {
+    padding: 0px 0px 15px 0px;
+}
+
+.brandPic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: futuraHeavy;
+    font-size: 45px;
+    text-shadow: 4px 4px 6px black;
+    text-align: center;
+}
+
+.lastBlocks {
+    margin-top: 50px;
+}
+
+.lgIn {
+    background-color: #fff200 !important;
+    color: black !important;
+    padding-top: 35px !important;
+    padding-bottom: 35px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    font-family: futuraExtraHeavy;
+}
+
+.track {
+    background-color: #1b75bc !important;
+    color: white !important;
+    padding-top: 35px !important;
+    padding-bottom: 35px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    font-family: futuraExtraHeavy;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.navBtn {
+    margin-right: 15px;
+}
+
+.leftText {
+    text-align: left;
+}
+
+.icons {
+    font-size: 80px;
+    color: #1b75bc;
+}
+
+.backIcon{
+    font-size: 40px;
+    color: #1b75bc;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.insideCircle {
+    margin-top: 30px;
+}
+
+.bigIcons {
+    font-size: 120px;
+    color: #1b75bc !important;
+}
+
+.boxIcon {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.infoBtn {
+    padding: 30px !important;
+}
+
+.globeIcon {
+    margin-top: 20px;
+}
+
+.remaining {
+    padding-left: 0px !important;
+    padding-right: 2px !important;
+}
+
+.courier {
+    padding-right: 0px !important;
+    padding-left: 2px !important;
+}
+
+.paddingCustmrChoice {
+    padding: 30px 20px 20px 20px;
+    cursor: pointer;
+}
+
+.customerChoiceHover {
+    border-bottom: 2px solid #898989 !important;
+}
+
+.customerChoiceHover:hover {
+    background-color: #acacac;
+    color: white
+}
+
+.addChoiceClick {
+    background-color: #898989;
+    color: white
+}
+
+.backImg {
+    background: url("../img/pargoHead.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.imgContainer {
+    position: relative;
+    text-align: center;
+}
+
+.imageBig {
+    display: block;
+    width: 100%
+}
+
+.progressBar {
+    padding: 30px 0px 30px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 690px) {
+    .brandPic {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: futuraHeavy;
+        font-size: 30px;
+        text-shadow: 4px 4px 6px black;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 743px) {
+    .icons {
+        font-size: 40px;
+        color: #1b75bc;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .brandPic {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: futuraHeavy;
+        font-size: 20px;
+        text-shadow: 4px 4px 6px black;
+        text-align: center;
+    }
+    .logoLeft {
+        font-size: 18px !important;
+        padding: 0.5rem 1rem;
+    }
+    .navBtn {
+        margin-right: 15px;
+        margin-left: -40px;
+    }
+    .bigIcons {
+        font-size: 70px;
+        color: #1b75bc !important;
+    }
+    .boxIcon {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .paddingSentence {
+        padding: 0px 0px 0px 0px !important;
+    }
+    .paddingSmallHeaderOther {
+        padding: 20px 0px 0px 0px;
+    }
+    .paddingOneSentence {
+        padding: 20px 0px 0px 0px !important;
+    }
+    body {
+        padding: 10px;
+    }
+}
